@@ -34,5 +34,8 @@ public class MainActivity extends BaseActivity {
         //kamu bsa panggil dengan cara ini
         textView.setBackgroundColor(res.getColor(android.R.color.holo_red_dark));
 
+        //todo 16
+        //name in mainfest
+
     }
 }
