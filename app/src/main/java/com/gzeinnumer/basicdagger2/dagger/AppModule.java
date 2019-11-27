@@ -12,6 +12,7 @@ import javax.inject.Singleton;
 import dagger.Module;
 import dagger.Provides;
 
+//todo 3
 @Module public class AppModule {
     private final DaggerApplication application;
 
@@ -32,6 +33,9 @@ import dagger.Provides;
     SharedPreferences providesSharedPreferences(Context app){
         return app.getSharedPreferences("MY_PREF_TITLE", Context.MODE_PRIVATE);
     }
+
+    //todo 14
+    //dagger akan membutkan function untuk memanggil ini
     @Provides
     Resources provideResource(){
         return application.getResources();
